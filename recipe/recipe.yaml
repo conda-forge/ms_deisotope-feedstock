@@ -13,7 +13,7 @@ source:
   sha256: 8121f35e4cdd3d558822b525fda2f23d30545f96391cd09f3abbb0131e78f218
 
 build:
-  number: 0
+  number: 1
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
     entry_points:
@@ -27,7 +27,9 @@ requirements:
       then:
         - python
         - cross-python_${{ target_platform }}
-        - numpy
+        - numpy >=2.0.0
+        - brain-isotopic-distribution >=1.5.8
+        - ms_peak_picker >=0.1.46
 
     - ${{ compiler('c') }}
     - ${{ stdlib("c") }}
