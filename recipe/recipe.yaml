@@ -27,7 +27,9 @@ requirements:
       then:
         - python
         - cross-python_${{ target_platform }}
-        - numpy
+        - numpy >=2.0.0
+        - brain-isotopic-distribution >=1.5.8
+        - ms_peak_picker >=0.1.46
 
     - ${{ compiler('c') }}
     - ${{ stdlib("c") }}
