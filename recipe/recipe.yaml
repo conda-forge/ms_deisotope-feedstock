@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: ms_deisotope
-  version: 0.0.56
+  version: "0.0.59"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/ms_deisotope-${{ version }}.tar.gz
-  sha256: 8121f35e4cdd3d558822b525fda2f23d30545f96391cd09f3abbb0131e78f218
+  sha256: b3d738a8dd0b7cf272eb7eb7575db0843e4372754fab7e807f02a198619d8513
 
 build:
-  number: 2
+  number: 0
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
   python:
     entry_points:
