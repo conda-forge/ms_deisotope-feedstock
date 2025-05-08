@@ -249,7 +249,7 @@ Current release info
 
 | Name | Downloads | Version | Platforms |
 | --- | --- | --- | --- |
-| [![Conda Recipe](https://img.shields.io/badge/recipe-ms_deisotope-green.svg)](https://anaconda.org/conda-forge/ms_deisotope) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ms_deisotope.svg)](https://anaconda.org/conda-forge/ms_deisotope) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ms_deisotope.svg)](https://anaconda.org/conda-forge/ms_deisotope) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ms_deisotope.svg)](https://anaconda.org/conda-forge/ms_deisotope) |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-ms__deisotope-green.svg)](https://anaconda.org/conda-forge/ms_deisotope) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/ms_deisotope.svg)](https://anaconda.org/conda-forge/ms_deisotope) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/ms_deisotope.svg)](https://anaconda.org/conda-forge/ms_deisotope) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/ms_deisotope.svg)](https://anaconda.org/conda-forge/ms_deisotope) |
 
 Installing ms_deisotope
 =======================
