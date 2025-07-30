@@ -3,7 +3,6 @@ schema_version: 1
 context:
   name: ms_deisotope
   version: "0.0.60"
-  python_min: '3.10'
 
 package:
   name: ${{ name|lower }}
@@ -16,6 +15,7 @@ source:
 build:
   number: 0
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
+  skip: match(python, "<3.10")
   python:
     entry_points:
       - ms-index = ms_deisotope.tools.indexing:main
