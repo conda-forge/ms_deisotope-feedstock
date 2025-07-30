@@ -56,7 +56,7 @@ requirements:
     - psims >=1.3.0
     - python-idzip >=0.3.2
     - pyzstd
-    - click
+    - click >=8.2
     - matplotlib-base
 
 tests:
